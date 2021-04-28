@@ -1,0 +1,53 @@
+.studentTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px #eee;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.studentTable thead tr {
+    background-color: #6d1a9c;
+    color: #ffffff;
+    text-align: left;
+}
+
+.studentTable th,
+.studentTable td {
+    padding: 12px 15px;
+}
+
+.studentTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+h3 {
+    margin: 0 43% 30px 42%;
+}
+
+.studentTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.studentTable tbody tr:last-of-type {
+    border-bottom: 2px solid #ccc;
+}
+
+button {
+    background-color: #5423a3;
+    border: 1px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-control {
+    width: 40%;
+}
